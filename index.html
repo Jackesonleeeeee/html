@@ -1,22 +1,46 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 <html>
+    <style>
+        p{
+            background-color: blueviolet;
+        }
+        #MainTitle{
+            background-color: blueviolet;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin-top:0%;
+            margin-bottom: 5px;
+        }
+    </style>
+    <h1 id="MainTitle">Happy Halloween!</h1>
+    <body style="height: 1000px;">
+        <button id="bt" style="position:absolute;  width: 200px; height:100px; top:100%; left: 43%; z-index:10; background-color: chocolate; border:none; text-align: center;border-radius: 5px; color: white; font-size: 30px;" herf="https://www.youtube.com/watch?v=dQw4w9WgXcQ" >Click here</button>
+        <img src="https://i.gifer.com/77g.gif" alt="spookey gif" style="align-content: center; width: 99%; position:absolute; z-index:0;"></a>
 
-<head>
-<title>Hello</title>
-</head>
 
-<h1>Welcome</h1>
 
-<body>
 
-<div>
-<p>hello</p>
-<img src="smilecat.png"  alt="smiling cat" id="cat"></body>
-</div>
 
-<div>
-<button style="background-color:DodgerBlue; font-size: 20px" id="nextpage";> <i>Next</i></button>
-</div>
 
-<script src="controll.js"></script>
+
+
+
+    </body>
+
+    <script>
+        document.getElementById('bt').addEventListener('click', function(){
+            window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+        })
+
+    </script>
+
+
+
+
 </html>
